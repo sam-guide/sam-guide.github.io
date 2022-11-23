@@ -23,8 +23,8 @@ website:
   description: "SAM-Guide is a French ANR project (AAPG 2021) aiming to study and model how to optimally supplement vision with both auditory and tactile feedback during spatial interaction tasks"
   image: res/header-blind-nav.png
   favicon: res/favicon-eye.svg
-  site-url: "https://ma-riviere.github.io"
-  site-path: "/SAM-Guide.org/"
+  site-url: "https://sam-guide.github.io/"
+  # site-path: "/"
   
   ### Analytics ###
   # google-analytics:
@@ -76,7 +76,7 @@ website:
         file: content/about.qmd
         aria-label: "About Us"
       # - icon: code-slash
-      #   href: https://github.com/sam-guide/sam-guide.org/
+      #   href: https://github.com/sam-guide/sam-guide.github.io/
       #   aria-label: "Source code of the website"
       - icon: github
         href: https://github.com/sam-guide/
