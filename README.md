@@ -1,2 +1,1 @@
-# sam-guide.github.io
-SAM-Guide project's website
+Website of the [SAM-Guide](https://sam-guide.org/) research project.

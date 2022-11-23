@@ -1,0 +1,51 @@
+---
+title: "{{< fa door-open >}} Opportunities"
+subtitle: "Get involved with SAM-Guide"
+
+listing:
+  - id: opportunities-internships
+    contents: "internships/*/*.{md,qmd,Rmd,ipynb}"
+    fields: [image, title, subtitle, description, categories]
+    image-align: left
+    categories: numbered
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 5
+  - id: opportunities-jobs
+    contents: "jobs/*/*.{md,qmd,Rmd,ipynb}"
+    fields: [image, title, subtitle, description, categories]
+    image-align: left
+    categories: numbered
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 5
+    sort-ui: [date, title]
+
+title-block-style: plain
+---
+
+## Partnerships
+
+Whether you are from the blind & visually impaired community, an Orientation & Mobility Instructor, a Researcher, or a vision specialist: if you are interested in our work, we are always on the lookout for new partners ! 
+
+<a href="/content/about.html#fa-address-book-how-to-contact-us" class="btn btn-primary rounded-pill">Contact Us !</a>
+
+***
+
+::::{.panel-tabset}
+
+## Internships
+
+We have several ongoing **internship offers** in each of our consortium's labs:
+
+***
+
+:::{#opportunities-internships}
+:::
+
+## Jobs
+
+:::{#opportunities-jobs}
+:::
+
+::::

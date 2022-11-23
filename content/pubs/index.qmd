@@ -1,0 +1,46 @@
+---
+title: "{{< fa book >}} Scientific Publications"
+subtitle: "Browse a curated list of publications relevant to our project"
+
+listing:
+  - id: pubs-consortium
+    contents:
+      - "consortium/*/*.{md,qmd,Rmd,ipynb}"
+      - "consortium/*.{md,qmd,Rmd,ipynb}"
+    fields: [date, title, author, subtitle, description, categories]
+    categories: numbered
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 5
+    sort-ui: [date, title]
+    filter-ui: true
+  - id: pubs-external
+    contents:
+      - "external/*/*.{md,qmd,Rmd,ipynb}"
+      - "external/*.{md,qmd,Rmd,ipynb}"
+    fields: [date, title, author, subtitle, description, categories]
+    categories: numbered
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 5
+    sort-ui: [date, title]
+    filter-ui: true
+
+title-block-style: plain
+---
+
+::::{.panel-tabset}
+
+## Consortium
+
+:::{#pubs-consortium}
+:::
+
+## External
+
+A curated selection of significant publications from external institutions:
+
+:::{#pubs-external}
+:::
+
+::::

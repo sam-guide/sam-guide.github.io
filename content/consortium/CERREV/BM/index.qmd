@@ -1,0 +1,46 @@
+---
+title: "Bruno Mantel"
+subtitle: "Associate Professor of Ergonomics"
+
+description: "Bruno Mantel is ..."
+
+image: BM.jpg
+image-alt: "Picture of Bruno Mantel"
+
+categories:
+  - "Researcher"
+  - "Ergonomics"
+  - "Psychology"
+
+about:
+  id: about-bm
+  template: jolla
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}} ORCID"
+      url: https://orcid.org/0000-0002-4938-7280
+      aria-label: "ORCID link"
+    - text: "Email"
+      icon: envelope
+      url: "mailto:bruno.mantel@unicaen.fr"
+      aria-label: "Mailto link"
+---
+
+<!-- TODO: auto-generate with R ? Make an extension ? -->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/CERREV/">CERREV</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Bruno Mantel</li>
+  </ol>
+</nav>
+
+:::{#about-bm}
+
+{{< meta description >}}
+
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

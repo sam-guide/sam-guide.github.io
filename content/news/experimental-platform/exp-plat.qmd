@@ -1,0 +1,40 @@
+---
+title: "Experimental platform: begin !"
+subtitle: "We've started the development of our experimental platform"
+date: 2022-01-01
+
+description: "We're developping a serious game program to help us evaluate blind navigation performance in multiple settings."
+
+image: Unity.png
+image-alt: "A screenshot showcasing the experimental platform being developped in Unity for SAM-Guide"
+
+categories:
+  - "Software"
+  - "Experimental"
+---
+
+***
+
+The platform uses Unity, connects to various motion tracking devices used by the consortium (Polhemus, VICON, pozyx), uses [PureData](https://puredata.info/) for sound-wave generation and [Steam Audio](https://valvesoftware.github.io/steam-audio/) for 3D audio modeling, and communicates with the consortium's non-visual interfaces wirelessly.
+
+:::{#fig-unity layout='[503,-5,492]'}
+
+![Testing environment with a PureData audio beacon](Unity.png){#fig-unity-testenv fig-alt="Screenshot of the testing environment of the experimental platform of SAM-Guide"}
+
+![Auto-generated maze with 3D audio beacons on waypoints](Unity-maze.png){#fig-unity-maze fig-alt="Screenshot of the maze generator of the experimental platform of SAM-Guide"}
+
+Screenshots from SAM-Guide's experimental platform *(in development)*
+
+:::
+
+This platform allows one to **easily spin up experimental trials** by specifying the desired characteristics in a JSON file (based on the [OpenMaze](https://openmaze.duncanlab.org/documentation) project). Unity will automatically generate the trial's environment according to those specifications and populate it with the relevant items (e.g. a tactile-signal emitting beacon signalling a target to reach in a maze), handle the transition between successive trials and blocks of trials, and log all the relevant user metrics into a data file.
+
+:::{#fig-specs layout='[505,-5,490]'}
+
+![Specifying the avatar and the experimental blocks' characteristics](Unity-protocol 1.png){#fig-unity-protocol1 fig-alt="Screenshot of the experimental protocol file specifying the avatar and the experimental blocks' characteristics"}
+
+![Specifying experimental trials, which can be repeated and randomized within blocks](Unity-protocol 3.png){#fig-unity-protocol3 fig-alt="Screenshot of the experimental protocol file specifying experimental trials, which can be repeated and randomized within blocks"}
+
+Examples of settings used to generate experimental trials on the fly.
+
+:::

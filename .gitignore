@@ -4,6 +4,7 @@
 
 # Session Data files
 .RData
+.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -37,3 +38,33 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+_secret.yml
+
+# Quarto
+/.quarto/
+# _freeze/
+
+# No need for R code, for now
+/src/
+/renv/
+renv.lock
+.Rbuildignore
+.Rprofile
+
+# HTML
+/index_files/
+/content/**/index_files/
+/content/**/site_libs/
+/site_libs/
+/*.html
+/content/**/*.html

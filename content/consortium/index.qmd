@@ -1,0 +1,15 @@
+---
+title: "{{< fa user-group >}} The Consortium"
+subtitle: "Who's behind SAM-Guide ?"
+
+listing:
+  contents: "/*/index.{qmd,md,Rmd}"
+  type: grid
+  fields: [image, title, subtitle, categories]
+  categories: numbered
+  sort: [title desc]
+  max-items: 6
+  grid-item-align: center
+
+title-block-style: plain
+---

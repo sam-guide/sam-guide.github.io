@@ -1,0 +1,82 @@
+---
+title: "SAM-Guide"
+subtitle: "Spatial Awareness for Multimodal Guidance"
+
+image: res/header-blind-nav.png
+image-alt: "Illustration showing a blind person navigating in a city filled with location markers emitting sounds"
+
+about:
+  template: trestles
+  image: res/header-blind-nav.png
+  image-width: "75%"
+
+description: | 
+  SAM-Guide’s high level objective is to efficiently **assist Visually Impaired People (VIP)** in tasks that require **interactions with space**. It aims to develop a **multimodal interface** to assist VIP during different types of spatial interactions, including *object reaching*, *large-scale navigation* (indoor and outdoor), and outdoor *sport activities*. 
+  
+  SAM-Guide aims to **study and model how to optimally supplement vision with both auditory and tactile feedback**, reframing spatial interactions as target-reaching affordances, and symbolizing spatial properties by 3D ego-centered beacons. Candidate encoding schemes will be evaluated through *Augmented Reality (AR)* serious games relying on motion capture platforms and indoor localisation solutions to track the user’s movements.
+
+  SAM-Guide is a inter-disciplinary collaboration project between three sites: (1) the [LPNC](/content/consortium/LPNC/) and [GIPSA](/content/consortium/GIPSA/) laboratories from the Grenoble-Alpes University, (2) the [CMAP](/content/consortium/CMAP/) from Ecole Polytechnique in Paris-Saclay, and the [LITIS](/content/consortium/LITIS/) and [CERREV](/content/consortium/CERREV/) from Normandy University.
+
+listing:
+  - id: home-news
+    type: grid
+    contents: "content/news/*/*.{md,qmd,Rmd}"
+    fields: [date, title, subtitle, categories]
+    categories: false
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 3
+    sort-ui: false
+  - id: home-internships
+    type: grid
+    contents: "content/opportunities/internships/*/*.{md,qmd,Rmd,ipynb}"
+    fields: [title, subtitle, description, categories]
+    categories: false
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 3
+    sort-ui: false
+  - id: home-jobs
+    type: grid
+    contents: "content/opportunities/jobs/*/*.{md,qmd,Rmd,ipynb}"
+    fields: [title, subtitle, description, categories]
+    categories: false
+    date-format: medium
+    sort: [date desc, title desc]
+    page-size: 3
+    sort-ui: false
+---
+
+:::{.column-page}
+
+## Our latest news:
+
+:::{#home-news}
+:::
+
+
+## Get involved:
+
+❖ **Orientation & Mobility Instructor ?  Vision specialist ?  Visually Impaired Person ?**
+
+Interested in our project ? Contact us [here](/content/about.html#fa-address-book-how-to-contact-us) !
+
+❖ **Post-doc ? Research Enginner ? Student ?** We have several openings:
+
+::::{.panel-tabset}
+
+### Internships
+
+:::{#home-internships}
+:::
+
+### Jobs
+
+:::{#home-jobs}
+:::
+
+::::
+
+For more, check our [opportunities](/content/opportunities/) section.
+
+:::

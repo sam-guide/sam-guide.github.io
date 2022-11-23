@@ -1,0 +1,23 @@
+---
+title: "Project Kick-off"
+subtitle: "Our first in-person meeting to officially kick-start the project"
+date: 2022-03-24
+
+description: "We had our first meeting at the CMAP in Paris to establish to roadmap for the project."
+
+image: ../../../res/placeholder.jpg
+image-alt: "A stock photo showing people bumping fists together in a shared office"
+
+categories:
+  - "Management"
+---
+
+*TODO*
+
+<!-- TODO: what/where -->
+
+After it's official start in December of 2021, our consortium has its first meeting in Paris-Saclay, in the laboratory of the [CMAP](/content/consortium/CMAP/) team.
+
+<!-- Objectives / outcomes (minutes) -->
+
+We tested CMAP's current binaural audio navigation system, ...

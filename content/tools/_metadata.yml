@@ -1,0 +1,15 @@
+# Tools
+
+resources: "*/*.pdf"
+
+about:
+  id: additional-links
+  template: solana
+  image: ../../res/favicon-eye.svg
+  image-width: "0%"
+
+filters:
+  - lightbox
+
+lightbox:
+  match: auto

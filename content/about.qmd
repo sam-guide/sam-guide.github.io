@@ -1,0 +1,65 @@
+---
+title: "{{< fa id-badge >}} About Us"
+subtitle: "Contact information"
+
+title-block-style: plain
+---
+
+## {{< fa address-book >}} How to contact us
+
+**TODO**
+
+<!-- TODO: Email form to consortium's email (same as GH) -->
+
+## {{< fa location-dot >}} Where to find us
+
+:::{.panel-tabset}
+
+### LPNC
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.7099250415695!2d5.770787451699506!3d45.19296787899609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5a058ce2f1d%3A0xc878ec49f6f4a2a2!2sLPNC%20-%20Laboratoire%20de%20Psychologie%20et%20NeuroCognition%20(UMR%205105)!5e0!3m2!1sen!2sfr!4v1668014038177!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Address:** 1251 Avenue Centrale, 38400 Saint-Martin-d'Hères, France
+
+<a href="consortium/LPNC/" class="btn btn-primary rounded-pill">More Information</a>
+
+
+### GIPSA-Lab
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.660751555628!2d5.765299251699556!3d45.19396317899612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5a86bdf7439%3A0x91ff6114215f44c!2sGIPSA-lab!5e0!3m2!1sen!2sfr!4v1668014017266!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Address:** 11 rue des Mathématiques, 38400 Saint-Martin-d'Hères, France
+
+<a href="consortium/GIPSA/" class="btn btn-primary rounded-pill">More Information</a>
+
+### CMAP
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.553677929913!2d2.2055540517840986!3d48.71401117917188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6789230a5632b%3A0x7ecc58a9bc363d5d!2sCmap%2C%20Center%20Mathematics%20Appliqu%C3%A9es!5e0!3m2!1sen!2sfr!4v1668013920316!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Address:**  Route de Saclay, Ecole Polytechnique, 91128 Palaiseau, France
+
+<a href="consortium/CMAP/" class="btn btn-primary rounded-pill">More Information</a>
+
+
+### CERREV
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2607.4503439528066!2d-0.36706584820401633!3d49.19201587922012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCentre%20de%20Recherche%20Risques%20%26%20Vuln%C3%A9rabilit%C3%A9s%20Caen!5e0!3m2!1sen!2sfr!4v1668013877471!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Address:**  Esplanade de la Paix, 14032 Caen, France
+
+<a href="consortium/CERREV/" class="btn btn-primary rounded-pill">More Information</a>
+
+
+### LITIS
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2597.178095254828!2d1.068668!3d49.386623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99721d01c683ed03!2sLitis!5e0!3m2!1sen!2sfr!4v1663157185844!5m2!1sen!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Address:**  Avenue de l'Université, 76800 Saint-Étienne-du-Rouvray, France
+
+<a href="consortium/LITIS/" class="btn btn-primary rounded-pill">More Information</a>
+
+:::
+
+## {{< fa code >}} About this site
+
+This website was made with [Quarto](https://quarto.org/).

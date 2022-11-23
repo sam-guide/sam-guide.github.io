@@ -1,0 +1,44 @@
+---
+title: "Denis Pellerin"
+subtitle: "Professor of Signal and Image Processing"
+
+description: "Denis Pellerin is ..."
+
+image: ../../../../res/unk-person.png
+image-alt: "Picture of Denis Pellerin"
+
+categories:
+  - "Researcher"
+  - "Computer Sciences"
+  - "Engineering"
+
+about:
+  id: about-dp
+  template: jolla
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}} ORCID"
+      url: https://orcid.org/0000-0002-2989-3610
+      aria-label: "ORCID link"
+    - text: "Email"
+      icon: envelope
+      url: "mailto:sylvain.huet@gipsa-lab.fr"
+      aria-label: "Mailto link"
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/GIPSA/">GIPSA</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Denis Pellerin</li>
+  </ol>
+</nav>
+
+:::{#about-dp}
+
+{{< meta description >}}
+
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

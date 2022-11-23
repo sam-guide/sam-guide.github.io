@@ -1,0 +1,15 @@
+# News
+
+resources: "**/*.{pdf,jpg,png}"
+
+# comments:
+#   giscus:
+#     repo: sam-guide/sam-guide
+#     repo-id: ""
+#     category: "Announcements"
+#     category-id: ""
+#     mapping: "pathname"
+#     reactions-enabled: true
+#     loading: lazy
+#     input-position: "bottom"
+#     theme: "light"

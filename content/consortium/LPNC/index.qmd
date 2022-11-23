@@ -1,0 +1,41 @@
+---
+title: "LPNC"
+subtitle: "Laboratoire de Psychology et NeuroCognition"
+
+description: "The LPNC is an interdisciplinary laboratory working on ..."
+
+members:
+  - "Christian Graff"
+
+image: logo.png
+image-alt: "Logo of the LPNC"
+
+categories:
+  - "Neurosciences"
+  - "Psychology"
+  - "Biology"
+
+listing:
+  id: lpnc-list
+  contents: "*.{qmd,Rmd,md}"
+  type: grid
+  fields: [title, subtitle, description, categories, image]
+  categories: numbered
+  sort: [title]
+  max-items: 6
+  image-height: 250px
+  grid-item-align: center
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item active" aria-current="page">LPNC</li>
+  </ol>
+</nav>
+
+::::{#lpnc-list}
+::::
+
+<a href="https://lpnc.univ-grenoble-alpes.fr/laboratoire-0" class="btn btn-primary rounded-pill">Official Website</a>

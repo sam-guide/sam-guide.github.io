@@ -1,0 +1,21 @@
+---
+title: "We're recruiting !"
+subtitle: "We have several openings for research internship, post-docs and research engineers"
+date: 2022-11-15
+
+description: "Interested in our project ? Join us ! We have permanent openings for Master-level interns in each of our partner's laboratories, and are recruiting a post-doc and a research engineer."
+
+image: join-us.jpg
+image-alt: "A stylised image saying 'Join Us'"
+
+categories:
+  - "Recruitment"
+  - "Internships"
+  - "Post-docs"
+---
+
+*TODO*
+
+:::{.center}
+<a href="/content/opportunities/" class="btn btn-primary rounded-pill">See our opportunities</a>
+:::

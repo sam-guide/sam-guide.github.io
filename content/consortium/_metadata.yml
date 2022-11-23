@@ -1,0 +1,3 @@
+# Consortium
+
+resources: "**/*.{pdf,jpg,png}"

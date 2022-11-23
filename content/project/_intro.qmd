@@ -1,0 +1,60 @@
+
+## SAM-Guide in a nutshell
+
+SAM-Guide's high level objective is to efficiently **assist Visually Impaired People (VIP)** in tasks that require **interactions with space**.
+It aims to develop a **multimodal interface** to assist VIP during different types of spatial interactions, including *object reaching*, *large-scale navigation* (indoor and outdoor), and outdoor *sport activities*.
+
+SAM-Guide aims to **study and model how to optimally supplement vision with both auditory and tactile feedback**, re-framing spatial interactions as target-reaching affordances, and symbolizing spatial properties by 3D ego-centered beacons.
+Candidate encoding schemes will be evaluated through [:Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality) serious games relying on motion capture platforms and indoor localisation solutions to track the user's movements.
+
+## SAM-Guide's inception
+
+This project was born from the collaboration of 4 different teams (split into 3 different sites), which have been independently studying and developing assistive devices for VIP for many years, each bringing complementary expertise:
+
+1.  The **AdViS** team from the [LPNC](/content/consortium/LPNC/) and [GIPSA](/content/consortium/GIPSA/) laboratories at **University of Grenoble-Alpes**.
+
+The **"AdViS" (Adaptive Visual Substitution)** multidisciplinary team consists of two specialists in computer science, signal processing, and electronics ([S. Huet](/content/consortium/GIPSA/SH/) and [D. Pellerin](/content/consortium/GIPSA/DP/)), and one specialist in biology, cognitive neurosciences, and psychophysics ([C. Graff](/content/consortium/LPNC/CG/)).
+
+They have been working together for several years on a modular audio-visual SSD [@stoll2015; @guezou-philippe2018].
+Their current endeavor revolves around the virtual prototyping of SSDs using motion capture (VICON) and AR to easily emulate both the testing environment, the SSD components, and implement various spatial-to-sound transcoding solutions [@giroux2021].
+
+2.  The **X-audio** team from the [CMAP](/content/consortium/CMAP/) laboratory at **Ecole Polytechnique**.
+
+<!-- TODO: who is in the team -->
+
+The **X-audio** team has developed state-of-the-art numerical algorithms and a complete software suite for the numerical simulation of acoustic scattering, binaural sound, reverberation and real-time rendering.
+They currently study the guidance of VIP using 3D sounds during sports (such as running or roller skating), with encouraging results.
+This system relies on a virtual mobile guiding beacon, moving in front of the user, providing spatialized audio cues about its position [@ferrand2018; @ferrand2020].
+Those audio cues include a virtual guide (similar to Legend of Zelda guiding fairy) which VIPs follow while running in order to stay on track.
+
+They have also developed expertise in sensor network tracking and data fusion for robust real-time positioning, and are currently conducting tests to apply real-time audio guidance to laser-gun aiming, for which they have developed a working prototype.
+
+3.  The [LITIS](/content/consortium/LITIS/) and [CERREV](/content/consortium/CERREV/) laboratories in **Normandy University**.
+
+NU's team comprises a specialist in biomedical engineering & electronics ([E. Pissaloux](/content/consortium/LITIS/EP/)), and two in cognitive ergonomics & human movement sciences ([E. Faugloire](/content/consortium/CERREV/EF/), [B. Mantel](/content/consortium/CERREV/BM/)).
+
+Both partners have worked for many years on assistive devices for VIP, and currently focus on supplementing the spatial cognition capabilities of VIP through the development of tactile interfaces for autonomous orientation and navigation [@faugloire2014; @rivière2018], map comprehension [@riviere2019], but also access to art [@mobility2018].
+
+NU is currently working with a vibrotactile belt that provides ego-centered orientation information on relevant environmental cues (allowing VIP to localize and orient themselves in autonomy), and a Force-Feedback Tablet that allows the exploration of 2D maps & images [@gay2018].
+
+Other foci of their research are the optimization of the tactile encoding of remote cues [@faugloire2022] using motion capture systems (i.e. Polhemus Fastrak) in AR, ecological modes of responses, and whole-body movements affordance-based HMI design [@mantel2012; @stoffregen2015].
+
+## Our philosophy
+
+<!-- TODO: living lab / include VIP in the whole process, not trying to replace vision as a whole, ... -->
+
+*TODO*
+
+## Our objectives
+
+*TODO*
+
+1)  Design an experimental platform to allow ...
+
+2)  Start testing ...
+
+<!-- TODO: redo Gantt with mermaid.js -->
+
+![Gantt chart of the project](gantt.png){fig-alt="Gantt chart of the project"}
+
+<!-- TODO: work packages ? (made more digest) -->

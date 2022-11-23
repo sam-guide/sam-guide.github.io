@@ -1,0 +1,13 @@
+# Content
+
+resources: "**/*.{pdf,jpg,png}"
+
+## A value has to be set for the banner to display. This value is overriden by the light/dark SCSS ##
+title-block-banner: "#666bad"       # Background
+title-block-banner-color: "#FFFFFF" # Text
+
+filter:
+  - lightbox
+  
+lightbox:
+  match: auto

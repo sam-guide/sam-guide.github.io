@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+// Custom
+$gold:         #d8ba55 !default; // #f2a11e
+$fushia-light: #f46aba !default;
+$fushia:       #D74399 !default;
+$mauve:        #8e64ca !default;
+$dark-blue:    #2a3063 !default;
+$light-blue:   #5b80d0 !default;
+$hail-satan:   #666bad !default;
+
+$col1:          $dark-blue !default;
+$col2:          $hail-satan !default;
+$col3:          $light-blue !default;
+
+$primary:       $col1 !default;
+$success:       $col3 !default;
+$link-color:    $col3 !default;
+
+// Code
+
+$code-block-border-left:          #31BAE9 !default;
+
+/*-- scss:rules --*/
+
+h1:not(.title) { color: $col1;}
+h2:not(.title) { color: $col2;}
+h5.quarto-listing-category-title { color: $col2; }
+
+.quarto-listing-category .category.active { color: $col3; }
+
+#progress-bar { background: lighten($col2, 10%); }
+
+.light-mode { display: block; }
+.dark-mode { display: none; }
+
+.quarto-title:not(.column-body) h1.title { color: $col1; }
+
+.quarto-title-block .quarto-title-banner {
+    background-color: $col2  !important;
+    color: white;
+}
+
+.quarto-title:not(.column-body) .subtitle {
+    color: $col2;
+    font-weight: bold;
+}
+  
+.column-page h2 { color: $col2; }
+
+.card-body > .card-title { color: $col3; }
+
+.navbar .nav-item > a.nav-link.active { border-top: 2px solid; } // #b4c5e9
+// .navbar .nav-item:has(> a.nav-link.active) { border-left: 2px solid; }

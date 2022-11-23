@@ -1,0 +1,62 @@
+---
+title: "Marc-Aurèle Rivière"
+subtitle: "Research Engineer in Cognitive Neurosciences"
+
+description: "Cognitive Neuroscientist interested in Behavioral Research, Data Science,  \n and Human-Machine Interfaces"
+
+image: MAR.jpg
+image-alt: "Profile picture of Marc-Aurèle Rivière"
+
+categories:
+  - "Research Engineer"
+  - "Data Sciences"
+  - "Cognitive Neurosciences"
+
+about:
+  id: about-mar
+  template: jolla
+  image-shape: round
+  links:
+    - text: "Website"
+      icon: globe
+      url: https://ma-riviere.me
+      aria-label: "My personal website"
+    - text: "GitHub"
+      icon: github
+      url: https://github.com/ma-riviere/
+      aria-label: "GitHub link"
+    - text: "Twitter"
+      icon: twitter
+      url: https://twitter.com/mariviere1
+      aria-label: "Twitter link"
+    - text: LinkedIn
+      icon: linkedin
+      url: https://linkedin.com/in/ma-riviere
+      aria-label: "LinkedIn link"
+    - text: "{{< ai orcid >}} ORCID"
+      url: https://orcid.org/0000-0002-5108-3382
+      aria-label: "ORCID link"
+    - text: "Email"
+      icon: envelope
+      url: "mailto:marc.aurele.riviere+site@gmail.com"
+      aria-label: "Mailto link"
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/LITIS/">LITIS</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Marc-Aurèle Rivière</li>
+  </ol>
+</nav>
+
+:::{#about-mar}
+
+{{< meta description >}}
+
+:::
+
+I've worked on several projects at the intersection between **Cognitive Neurosciences** and **Biomedical Engineering**. Those projects aimed to develop and evaluate wearable assistive devices for Visually Impaired People (VIP), providing them with a non-visual experience of their surroundings through the use of Computer Vision and Augmented Reality, within the Sensory Substitution framework. 
+
+I have a fondness for **data analysis** (especially Bayesian methods), and an unhealthy obsession with the R ecosystem and its community. I also dabble in more generic programming languages such as Java, C# (Unity), and Javascript.

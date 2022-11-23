@@ -1,0 +1,42 @@
+---
+title: "LITIS"
+subtitle: "Laboratoire d'Informatique, du Traitement de l'Information et des Systèmes"
+
+description: "The LITIS is an interdisciplinary laboratory working on ..."
+
+members:
+  - "Edwige Pissaloux"
+  - "Marc-Aurèle Rivière"
+
+image: logo.png
+image-alt: "Logo of the LITIS"
+
+categories:
+  - "Computer Sciences"
+  - "Engineering"
+  - "Bioinformatics"
+
+listing:
+  id: litis-list
+  contents: "*.{qmd,Rmd,md}"
+  type: grid
+  fields: [title, subtitle, description, categories, image]
+  categories: numbered
+  sort: [title]
+  max-items: 6
+  image-height: 250px
+  grid-item-align: center
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item active" aria-current="page">LITIS</li>
+  </ol>
+</nav>
+
+::::{#litis-list}
+::::
+
+<a href="https://www.litislab.fr/en" class="btn btn-primary rounded-pill">Official Website</a>

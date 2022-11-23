@@ -1,0 +1,42 @@
+---
+title: "CERREV"
+subtitle: "Centre de Recherche Risques Et Vulnérabilités"
+
+description: "The CERREV is ..."
+
+members:
+  - "Elise Faugloire"
+  - "Bruno Mantel"
+
+image: logo.png
+image-alt: "Logo of the CERREV"
+
+categories:
+  - "Psychology"
+  - "Public Health"
+  - "Ergonomics"
+
+listing:
+  id: cerrev-list
+  contents: "*.{qmd,Rmd,md}"
+  type: grid
+  fields: [title, subtitle, description, categories, image]
+  categories: numbered
+  sort: [title desc]
+  max-items: 6
+  image-height: 250px
+  grid-item-align: center
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item active" aria-current="page">CERREV</li>
+  </ol>
+</nav>
+
+::::{#cerrev-list}
+::::
+
+<a href="https://cerrev.unicaen.fr/" class="btn btn-primary rounded-pill">Official Website</a>

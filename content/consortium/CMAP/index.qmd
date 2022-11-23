@@ -1,0 +1,42 @@
+---
+title: "CMAP"
+subtitle: "Centre de Mathématiques Appliquées"
+
+description: "The CMAP is ..."
+
+members:
+  - "Sylvain Ferrand"
+  - "François Alouges"
+
+image: logo.png
+image-alt: "Logo of the CMAP"
+
+categories:
+  - "Applied Mathematics"
+  - "Engineering"
+  - "Computer Sciences"
+
+listing:
+  id: cmap-list
+  contents: "*.{qmd,Rmd,md}"
+  type: grid
+  fields: [title, subtitle, description, categories, image]
+  categories: numbered
+  sort: [title]
+  max-items: 6
+  image-height: 250px
+  grid-item-align: center
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item active" aria-current="page">CMAP</li>
+  </ol>
+</nav>
+
+::::{#cmap-list}
+::::
+
+<a href="https://portail.polytechnique.edu/cmap/en" class="btn btn-primary rounded-pill">Official Website</a>

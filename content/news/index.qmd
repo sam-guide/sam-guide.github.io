@@ -1,0 +1,17 @@
+---
+title: "{{< fa circle-info >}} News"
+subtitle: "Stay up-to-date with our project"
+
+listing:
+  contents: "*/*.{qmd,md}"
+  fields: [date, image, title, subtitle, description, categories]
+  categories: numbered
+  date-format: medium
+  sort: [date desc, title desc]
+  feed:
+    type: partial
+
+title-block-style: plain
+---
+
+<!-- TODO: subscribe -->

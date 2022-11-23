@@ -1,0 +1,40 @@
+/* Fira code font for code blocks - Needs to be at the top */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+pre code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  pre code { font-family: 'Fira Code VF', monospace; }
+}
+
+:root {
+  --gold:         #d8ba55;
+  --fushia-light: #f46aba;
+  --fushia:       #D74399;
+  --mauve:        #8e64ca;
+  --dark-blue:    #2a3063;
+  --light-blue:   #5b80d0;
+  --hail-satan:   #666bad;
+}
+
+pre code { font-size: 0.85rem; }
+
+details > summary { color: rgb(136, 136, 136); }
+
+.about-entity {
+  justify-content: center;
+}
+
+/* For the about trick to add link buttons */
+.quarto-about-solana.column-body {
+  padding-top: 0 !important
+}
+
+.quarto-about-jolla div p {
+  text-align: center;
+}
+
+header .description {
+  margin-right: 20px;
+  margin-left: 20px;
+}

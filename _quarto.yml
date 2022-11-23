@@ -1,0 +1,161 @@
+project:
+  type: website
+  output-dir: "_site"
+  resources:
+    - .nojekyll
+    # - CNAME
+    - "/res/*"
+    - "/libs/*"
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "*.ipynb"
+    - "*.Rmd"
+    - "!TODO.md"
+    - "!LICENSE.md"
+    - "!src/"
+    - "!R/"
+  # pre-render: 
+  # post-render: 
+
+website:
+  title: "{{< fa eye-low-vision >}} SAM-Guide" # fa person-walking-with-cane
+  description: "SAM-Guide is a French ANR project (AAPG 2021) aiming to study and model how to optimally supplement vision with both auditory and tactile feedback during spatial interaction tasks"
+  image: res/header-blind-nav.png
+  favicon: res/favicon-eye.svg
+  site-url: "https://ma-riviere.github.io"
+  site-path: "/SAM-Guide.org/"
+  
+  ### Analytics ###
+  # google-analytics:
+  #   tracking-id: ""
+  cookie-consent:
+    type: implied
+  
+  ### Sharing ###
+  twitter-card:
+    card-style: summary
+  open-graph:
+    locale: en_EN
+  
+  ### Search ###
+  search:
+    location: navbar
+    type: overlay
+    collapse-after: 10
+  
+  ### Navigation ###
+  # page-navigation: true
+  navbar:
+    # logo:
+    # logo-alt: ""
+    pinned: true
+    collapse: true
+    collapse-below: md
+    left:
+      - text: "{{< fa business-time >}} The Project"
+        file: content/project/index.qmd
+        aria-label: "Learn more about the project"
+      - text: "{{< fa user-group >}} The Consortium"
+        file: content/consortium/index.qmd
+        aria-label: "Who's involved in the project"
+      - text: "{{< fa book >}} Publications"
+        file: content/pubs/index.qmd
+        aria-label: "Publications"
+      # - text: "Tools"
+      #   file: content/tools/index.qmd
+      #   aria-label: "Tools"
+      - text: "{{< fa door-open >}} Get Involved"
+        file: content/opportunities/index.qmd
+        aria-label: "Get Involved"
+    right:
+      - text: "{{< fa circle-info >}} News"
+        file: content/news/index.qmd
+        aria-label: "News"
+      - text: "{{< fa id-badge >}} About Us"
+        file: content/about.qmd
+        aria-label: "About Us"
+      # - icon: code-slash
+      #   href: https://github.com/sam-guide/sam-guide.org/
+      #   aria-label: "Source code of the website"
+      - icon: github
+        href: https://github.com/sam-guide/
+        aria-label: "Consortium's GitHub page"
+      - icon: rss
+        href: content/news/index.xml
+        aria-label: "SAM-Guide's news feed RSS"
+  
+  ## Sidebar ##
+  sidebar: false
+  
+  ### Footer ###
+  page-footer:
+    border: true
+    left: 
+      - text: "© 2021-2022 SAM-Guide"
+        href: LICENSE.md
+        aria-label: "Website's license"
+    right:
+      - text: "Made with Quarto ♥️"
+        href: https://quarto.org/
+        aria-label: "Quarto's website"
+
+
+from: markdown+emoji
+link-citations: true
+csl: apa.csl
+# lang: en
+
+citation: false
+comments: false
+toc: false
+
+format:
+  html:
+    theme:
+      light: [default, libs/css/light.scss]
+      dark: [libs/css/dark.scss]
+    css: libs/css/style.css
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    df-print: paged
+    # mainfont: "Lato"
+    # monofont: "Fira Mono"
+    fig-align: center
+    fig-dpi: 500
+    fig-format: svg
+    # fig-cap-location: bottom
+    anchor-sections: true
+    footnotes-hover: true
+    code-link: true
+    code-copy: hover
+    code-block-bg: true
+    code-overflow: scroll
+    highlight-style:
+      light: libs/highlight-styles/light.theme
+      dark: libs/highlight-styles/dark.theme
+    link-external-newwindow: true
+
+# engine: knitr
+ 
+# knitr:
+#   opts_chunk:
+#     warning: false
+#     message: false
+#     fig.align: center
+#     dpi: 500
+#     dev: svg
+#     dev.args:
+#       bg: transparent
+#     # R.options:
+#     #   scipen: 999
+
+execute:
+  warning: false
+  message: false
+  cache: false
+  freeze: auto
+
+editor: source

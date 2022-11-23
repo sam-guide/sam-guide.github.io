@@ -1,0 +1,48 @@
+---
+title: "NAVIG: augmented reality guidance system for the visually impaired"
+subtitle: "Virtual Reality"
+date: 2012-06-12
+
+author:
+  - "Brian Katz"
+  - "Slim Kammoun"
+  - "Gaëtan Parseihian"
+  - "Olivier Gutierrez"
+  - "Adrien Brilhault"
+  - "Malika Auvray"
+  - "Philippe Truillet"
+  - "Michel Denis"
+  - "Simon Thorpe"
+  - "Christophe Jouffrais"
+
+doi: 10.1007/s10055-012-0213-6
+
+description: "The NAVIG system explores the use of spatial auditory perception for navigation, by presenting the user with real-time information about its trajectory, position in the environment, and important landmarks in its surroundings."
+
+abstract: |
+  Navigating complex routes and finding objects of interest are challenging tasks for the visually impaired. The project NAVIG (Navigation Assisted by artificial VIsion and GNSS) is directed toward increasing personal autonomy via a virtual augmented reality system. The system integrates an adapted geographic information system with different classes of objects useful for improving route selection and guidance. The database also includes models of important geolocated objects that may be detected by real-time embedded vision algorithms. Object localization (relative to the user) may serve both global positioning and sensorimotor actions such as heading, grasping, or piloting. The user is guided to his desired destination through spatialized semantic audio rendering, always maintained in the head-centered reference frame. This paper presents the overall project design and architecture of the NAVIG system. In addition, details of a new type of detection and localization device are presented. This approach combines a bio-inspired vision system that can recognize and locate objects very quickly and a 3D sound rendering system that is able to perceptually position a sound at the location of the recognized object. This system was developed in relation to guidance directives developed through participative design with potential users and educators for the visually impaired.
+
+categories:
+  - "Accessibility"
+  - "Sensory Substitution"
+  - "Auditory Interface"
+  - "3D Audio"
+  - "Localization"
+  - "Virtual Reality"
+
+citation:
+  type: article-journal
+  container-title: "Virtual Reality"
+  doi: 10.1007/s10055-012-0213-6
+  url: https://link.springer.com/article/10.1007/s10055-012-0213-6
+  volume: 16
+  issue: 4
+  page: "253-269"
+  issn: "1359-4338, 1434-9957"
+---
+
+<hr style="margin-bottom: 30px; margin-top: -12px">
+
+<object data="https://47471ea6-04db-40ee-8378-509627e220e4.filesusr.com/ugd/dc99bc_0d96227437ac4bc4b16c4980c10469b0.pdf" type="application/pdf" width="100%" height="900">
+  <p><a href="https://47471ea6-04db-40ee-8378-509627e220e4.filesusr.com/ugd/dc99bc_0d96227437ac4bc4b16c4980c10469b0.pdf">Link to the PDF</a></p>
+</object>

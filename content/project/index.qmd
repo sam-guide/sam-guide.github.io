@@ -1,0 +1,49 @@
+---
+title: "{{< fa business-time >}} The Project"
+subtitle: "Learn more about SAM-Guide"
+
+image: ../../res/header-blind-nav.png
+image-alt: "Illustration showing a blind person navigating in a city filled with location markers emitting sounds"
+
+number-sections: true
+toc: true
+
+bibliography: refs.bib
+
+filters:
+  - nutshell
+  - lightbox
+  
+lightbox:
+  match: auto
+
+include-before-body: 
+  - ../../libs/html/progress-bar.html
+  # - text: '<script>Array.from(document.querySelectorAll(".nutshell-heading")).forEach((el) => el.classList.remove(".nutshell-heading"));</script>'
+
+title-block-style: plain
+---
+
+<!-- TODO: Image carousel ? (see Quarto's webpage code) -->
+
+![](../../res/header-blind-nav.png){.preview-image fig-alt="Illustration showing a blind person navigating in a city filled with location markers emitting sounds"}
+
+:::{.callout-caution}
+
+## Attention
+
+This website is currently under construction.
+
+:::
+
+# The Project
+
+{{< include _intro.qmd >}}
+
+# The Theory
+
+{{< include _theory.qmd >}}
+
+# Our Work
+
+{{< include _progress.qmd >}}

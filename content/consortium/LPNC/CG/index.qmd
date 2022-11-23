@@ -1,0 +1,49 @@
+---
+title: "Christian Graff"
+subtitle: "Associate Professor of Neurosciences"
+
+description: |
+  Christian Graff is ...
+  
+  He is the project coordinator of SAM-Guide.
+
+image: CG.png
+image-alt: "Picture of Christian Graff"
+
+categories:
+  - "Project Coordinator"
+  - "Neurosciences"
+  - "Neuroethology"
+
+about:
+  id: about-cg
+  template: jolla
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}} ORCID"
+      url: https://orcid.org/0000-0001-5683-1557
+      aria-label: "ORCID link"
+    - text: "Email"
+      icon: envelope
+      url: "mailto:christian.graff@univ-grenoble-alpes.fr"
+      aria-label: "Mailto link"
+---
+
+<!-- TODO: auto-generate with R ? Make an extension ? -->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/">The Consortium</a></li>
+    <li class="breadcrumb-item"><a href="/content/consortium/LPNC/">LPNC</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Christian Graff</li>
+  </ol>
+</nav>
+
+:::{#about-cg}
+
+{{< meta description >}}
+
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
