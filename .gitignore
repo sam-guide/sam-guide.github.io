@@ -60,6 +60,7 @@ _secret.yml
 renv.lock
 .Rbuildignore
 .Rprofile
+*.Rproj
 
 # HTML
 /index_files/
