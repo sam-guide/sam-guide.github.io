@@ -16,8 +16,17 @@ categories:
   - "Computer Sciences"
   - "Robotics"
 
+about:
+  template: solana
+  image-width: "0%"
+  links:
+    - text: "Official Website"
+      icon: globe
+      url: https://www.gipsa-lab.grenoble-inp.fr/en
+      aria-label: "Official website"
+
 listing:
-  id: gipsa-list
+  id: members-list
   contents: "*.{qmd,Rmd,md}"
   type: grid
   fields: [title, subtitle, description, categories, image]
@@ -36,7 +45,13 @@ listing:
   </ol>
 </nav>
 
-::::{#gipsa-list}
-::::
+## Our role in SAM-Guide:
 
-<a href="https://www.gipsa-lab.grenoble-inp.fr/en" class="btn btn-primary rounded-pill">Official Website</a>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<!-- To learn more about the lab's broader activities, check out its <a href="https://www.gipsa-lab.grenoble-inp.fr/en" class="btn btn-outline-primary btn-sm">Official Website</a>  -->
+
+## Who we are:
+
+::::{#members-list}
+::::

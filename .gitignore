@@ -39,9 +39,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
 # translation temp files
 po/*~
 
@@ -52,6 +49,8 @@ _secret.yml
 
 # Quarto
 /.quarto/
+docs/
+_site/
 # _freeze/
 
 # No need for R code, for now

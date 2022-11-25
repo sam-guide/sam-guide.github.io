@@ -2,7 +2,10 @@
 title: "LPNC"
 subtitle: "Laboratoire de Psychology et NeuroCognition"
 
-description: "The LPNC is an interdisciplinary laboratory working on ..."
+description: | 
+  Le Laboratoire de Psychologie et NeuroCognition, LPNC est une unité mixte de recherche (UMR) structurée depuis 2019 en cinq équipes thématiques de recherche (Vision & Émotion, Corps & Espace, Langage, Mémoire et Développement & Apprentissage). Nous menons une activité de recherche en Sciences Cognitives, pluridisciplinaire, grâce à une approche combinée et complémentaire des disciplines appartenant aux champs des sciences humaines et sociales (telles que la psychologie, la linguistique, la neuropsychologie), des sciences de l’ingénieur appliquées à la cognition (telles que les mathématiques, la modélisation bio-inspirée et le traitement du signal) et des sciences de la vie (telles que les neurosciences, les sciences médicales ou la neuroimagerie). 
+  
+  Le LPNC est affilié au CNRS depuis 1978, principalement à l’Institut des sciences biologiques (INSB, section 26) et secondairement à l’Institut Sciences humaines et sociales (INSHS, section 34). Nos deux tutelles universitaires sont l’Université Grenoble Alpes et l’Université Savoie Mont-Blanc.
 
 members:
   - "Christian Graff"
@@ -15,8 +18,17 @@ categories:
   - "Psychology"
   - "Biology"
 
+about:
+  template: solana
+  image-width: "0%"
+  links:
+    - text: "Official Website"
+      icon: globe
+      url: https://lpnc.univ-grenoble-alpes.fr/laboratoire-0
+      aria-label: "Official website"
+
 listing:
-  id: lpnc-list
+  id: members-list
   contents: "*.{qmd,Rmd,md}"
   type: grid
   fields: [title, subtitle, description, categories, image]
@@ -35,7 +47,13 @@ listing:
   </ol>
 </nav>
 
-::::{#lpnc-list}
-::::
+## Our role in SAM-Guide:
 
-<a href="https://lpnc.univ-grenoble-alpes.fr/laboratoire-0" class="btn btn-primary rounded-pill">Official Website</a>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<!-- To learn more about the LPNC's broader activities, check out its <a href="https://lpnc.univ-grenoble-alpes.fr/laboratoire-0" class="btn btn-outline-primary btn-sm">Official Website</a>  -->
+
+## Who we are:
+
+::::{#members-list}
+::::

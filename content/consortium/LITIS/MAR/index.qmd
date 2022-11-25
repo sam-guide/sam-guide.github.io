@@ -60,3 +60,7 @@ about:
 I've worked on several projects at the intersection between **Cognitive Neurosciences** and **Biomedical Engineering**. Those projects aimed to develop and evaluate wearable assistive devices for Visually Impaired People (VIP), providing them with a non-visual experience of their surroundings through the use of Computer Vision and Augmented Reality, within the Sensory Substitution framework. 
 
 I have a fondness for **data analysis** (especially Bayesian methods), and an unhealthy obsession with the R ecosystem and its community. I also dabble in more generic programming languages such as Java, C# (Unity), and Javascript.
+
+## My role in the project:
+
+**TODO**
