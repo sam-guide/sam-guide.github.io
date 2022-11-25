@@ -27,8 +27,8 @@ website:
   # site-path: "/"
   
   ### Analytics ###
-  # google-analytics:
-  #   tracking-id: ""
+  google-analytics:
+    tracking-id: "G-ZKJDVQBKGB"
   cookie-consent:
     type: implied
   
