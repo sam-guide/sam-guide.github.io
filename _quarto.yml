@@ -80,6 +80,7 @@ website:
       #   aria-label: "Source code of the website"
       - icon: github
         href: https://github.com/sam-guide/
+        rel: "me"
         aria-label: "Consortium's GitHub page"
       - icon: rss
         href: content/news/index.xml

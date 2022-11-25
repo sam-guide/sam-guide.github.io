@@ -1,6 +1,6 @@
 ---
-title: "Blind target reaching in AR"
-subtitle: "Master 2 (Spring 2023)"
+title: "Auditory target-reaching in AR"
+subtitle: "Master 2 Internship"
 
 image: VICON.png
 image-alt: "Illustration showing a previous experiment where a person tries to find an invisible target within a room, guided by sounds, her position being tracked by a motion capture system"
@@ -30,12 +30,13 @@ categories:
   - "Cognitive Neurosciences"
   - "Sensory Substitution"
   - "Augmented Reality"
+  - "Auditory Perception"
 
 # about:
 #   links:
 #     - text: "Official page"
 #       icon: globe
-#       url: https://ma-riviere.me/ # TODO
+#       url: # TODO
 #       aria-label: "Official internship page"
 ---
 

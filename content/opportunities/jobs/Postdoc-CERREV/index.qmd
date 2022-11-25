@@ -1,0 +1,40 @@
+---
+title: "Tactile navigation in AR"
+subtitle: "Postdoc in Cognitive Neurosciences"
+
+image: Fastrack.png
+image-alt: "Schema illustrating the experimental setup: blind person wearing a tactile belt and headphones, whose position is tracked within the room"
+
+author:
+  - name: "Elise Faugloire"
+    url: /content/consortium/CERREV/EF/
+    affiliations:
+      - name: "CERREV"
+        url: /content/consortium/CERREV/
+    attributes:
+      corresponding: true
+  - name: "Bruno Mantel"
+    url: /content/consortium/CERREV/BM/
+    affiliations:
+      - name: "CERREV"
+        url: /content/consortium/CERREV/
+
+description: "Evaluate different vibrotactile feedback schemes to facilitate blind navigation tasks in an Augmented Reality environment with motion capture."
+
+categories:
+  - "Cognitive Neurosciences"
+  - "Sensory Substitution"
+  - "Augmented Reality"
+  - "Tactile Perception"
+
+# about:
+#   links:
+#     - text: "Official page"
+#       icon: globe
+#       url: # TODO
+#       aria-label: "Official internship page"
+---
+
+<hr style="margin-bottom: 30px; margin-top: -12px">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
