@@ -3,7 +3,7 @@ title: "François Alouges"
 subtitle: "Professor of Applied Mathematics"
 
 description: | 
-  François Alouges is ...
+  François Alouges is Professor
   
   He is the Scientifc Leader for the CMAP.
 
