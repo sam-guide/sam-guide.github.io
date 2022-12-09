@@ -15,8 +15,6 @@ project:
     - "!LICENSE.md"
     - "!src/"
     - "!R/"
-  # pre-render: 
-  # post-render: 
 
 website:
   title: "{{< fa eye-low-vision >}} SAM-Guide" # fa person-walking-with-cane
@@ -24,7 +22,6 @@ website:
   image: res/header-blind-nav.png
   favicon: res/favicon-eye.svg
   site-url: "https://sam-guide.github.io/"
-  # site-path: "/"
   
   ### Analytics ###
   google-analytics:
