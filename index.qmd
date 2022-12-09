@@ -47,7 +47,7 @@ listing:
     sort-ui: false
 ---
 
-:::{.column-page}
+:::::{.column-page}
 
 ## Our latest news:
 
@@ -79,4 +79,4 @@ Interested in our project ? Contact us [here](/content/about.html#fa-address-boo
 
 For more, check our [opportunities](/content/opportunities/) section.
 
-:::
+:::::

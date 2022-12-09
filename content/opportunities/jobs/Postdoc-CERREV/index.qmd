@@ -2,7 +2,7 @@
 title: "Tactile navigation in AR"
 subtitle: "Postdoc in Cognitive Neurosciences"
 
-image: Fastrack.png
+image: fastrack.png
 image-alt: "Schema illustrating the experimental setup: blind person wearing a tactile belt and headphones, whose position is tracked within the room"
 
 author:
